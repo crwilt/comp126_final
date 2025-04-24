@@ -9,3 +9,10 @@ Basetball schedule: Grayson
 Basketball roster: Grayson
 Videos: C
 news: Bennett
+
+Hex Codes:
+Primary: #131210
+Secondary: #43B6DD
+Accent: #EDDCA9
+Background: #0E3B44
+Text Color: White
