@@ -203,15 +203,9 @@ input:focus {
   outline: none;
 }
 
-.namediv {
+.formitm {
   display: flex;
   flex-flow: column wrap;
-  gap: 5px;
-}
-
-.emaildiv {
-  display: flex;
-  flex-direction: column;
   gap: 5px;
 }
 

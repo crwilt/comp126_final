@@ -32,17 +32,39 @@
                 In feugiat nunc vel odio congue suscipit</p>
         </div>
         <div class="formdiv">
-            <form> <!--Used class resources and: https://www.w3schools.com/html/html_form_attributes.asp-->
+            <form action="index.html"> <!--Used class resources and: https://www.w3schools.com/html/html_form_attributes.asp-->
                 <div>
-                    <lengend>Join our mailing list for updates!</lengend>
+                    <lengend>Sign Up Now!</lengend>
                 </div>
-                <div class="namediv">
+                <div class="formitm">
                     <label for="yourname">Your Name</label>
                     <input id="yourname" type="text" name="name" placeholder="John Doe" required>
                 </div>
-                <div class="emaildiv">
+                <div class="formitm">
                     <label for="email">Email</label>
                     <input id="email" type="email" name="email" placeholder="example.email@gmail.com" required>
+                </div>
+                <div class="formitm">
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel" name="phone" placeholder="123-456-7890" required>
+                </div>
+                <div class="formitm">
+                    <label for="inch">Height</label>
+                    <input id="inch" type="number" title="Please enter your height in inches" name="inch" placeholder="69" min="1" required>
+                </div>
+                <div class="formitm">
+                    <label for="pounds">Weight</label>
+                    <input id="pounds" type="number" title="Please enter your weight in pounds" name="pounds" placeholder="69" min="1" required>
+                </div>
+                <div class="formitm">
+                    <label for="birthday">Date of Birth</label>
+                    <input id="birthday" type="date" name="birthday" required>
+                </div>
+                <div class="formitm">
+                    <label>
+                        <input type="checkbox" name="signup" value="yes">
+                        Would you like to receive updates and news about the BBL?
+                    </label>                      
                 </div>
                 <div class="frmbtndiv">
                     <button type="submit">SUBMIT</button>
