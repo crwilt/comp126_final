@@ -124,3 +124,290 @@ header {
 .nav-collapse ul ul a {
   padding-left: 2em;
 }
+
+.headertxt { /*This code onward is my own (beside some stuff in the media queary)*/
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin-top: 20px;
+  gap: 1.5rem;
+}
+
+.welcome-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 90%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0.75rem;
+}
+
+.welcomebtn {
+  background-color: #292f56;
+  color: white;
+  border: 0;
+  padding: 0.25rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition-property: background-color, color;
+  transition-duration: 5s, 8s;
+}
+
+.welcomebtn:hover,
+.welcomebtn:focus {
+  background-color: #ACFA70;
+  color: black;
+}
+
+.formdiv {
+  width: 90%;
+  display: flex;
+}
+
+form {
+  width: 100%;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input {
+  border-radius: 8px;
+  border-style: solid;
+}
+
+input:hover,
+input:focus {
+  border-color: black;
+  outline: none;
+}
+
+.namediv {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 5px;
+}
+
+.emaildiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.frmbtndiv button { /*knowledge of background property from https://www.w3schools.com/cssref/css3_pr_background-size.php*/
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-image: linear-gradient(90deg, #ACFA70 30%, #292f56 70%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #292f56;
+  color: white;
+  transition: background-size 2.5s ease-in-out; 
+}
+
+.frmbtndiv button:hover,
+.frmbtndiv button:focus {
+  background-color: #292f56;
+  background-size: 0px;
+}
+
+input {
+  padding: 15px;
+}
+
+.mimgdiv {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin-bottom: 10px;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imgdiv1 {
+  display: flex;
+  width: 90%;
+  padding-top: 15px;
+}
+
+.imgdiv2 {
+  display: flex;
+  width: 90%;
+}
+
+.imgdiv3 {
+  display: flex;
+  width: 90%;
+  padding-bottom: 15px;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 1;
+}
+
+img:hover {
+  animation: img-grow 3s forwards;
+}
+
+img:not(:hover) { /*https://www.w3schools.com/CSSref/sel_not.php*/
+  animation: img-shrink 3s forwards;
+}
+
+@keyframes img-grow {
+  0% {transform: scale(1);}
+  100% {transform: scale(1.2);}
+}
+
+@keyframes img-shrink {
+  0% {transform: scale(1.2);}
+  100% {transform: scale(1);}
+}
+
+footer {
+  background-color: #292f56;
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.fdiv {
+  width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-collapse ul {
+  flex-direction: row;
+  align-items: flex-end;
+}
+  
+  .nav-collapse li {
+    width: auto;
+  }
+
+  .nav-collapse,
+  .nav-collapse ul {
+  list-style: none;
+  display: flex;
+  width: auto;
+  justify-content: end;
+  }
+
+  .nav-collapse a {
+    padding: 1.02em 2em;
+    text-align: center;
+    border-top: 0;
+    margin: 0;
+  }
+
+  .nav-collapse ul ul a {
+    display: none;
+  }
+
+  .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+
+  header {
+    flex-wrap: nowrap;
+  }
+
+  main {
+    display: grid;
+    justify-items: center;
+    margin-top: 20px;
+    gap: 1.5rem 2.5rem;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 0.75fr 0.25fr;
+    grid-template-areas: 
+    "weldiv formdiv"
+    "imgdiv imgdiv"
+  }
+
+  .welcome-div {
+    grid-area: weldiv;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+    justify-self: end;
+  }
+
+  .formdiv {
+    grid-area: formdiv;
+    justify-self: start;
+  }
+
+  .mimgdiv {
+    grid-area: imgdiv;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .imgdiv1 {
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    height: 90%;
+    padding: 0px;
+    margin-left: 50px;
+    margin-right: -50px;
+  }
+
+  .imgdiv2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    padding: 0px;
+  }
+
+  .imgdiv3 {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    padding: 0px;
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+
+  img { /*https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio*/
+    width: 75%;
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+  }
+}
