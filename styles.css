@@ -132,6 +132,7 @@ header {
 
 main {
   display: grid;
+  background-color: #0E3B44;
   grid-template-columns: 1fr;
   justify-items: center;
   margin-top: 20px;
@@ -291,7 +292,7 @@ img:not(:hover) { /*https://www.w3schools.com/CSSref/sel_not.php*/
 }
 
 footer {
-  background-color: #292f56;
+  background-color: #131210;
   color: white;
   display: flex;
   position: fixed;
