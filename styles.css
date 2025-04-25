@@ -5,6 +5,13 @@ body {
   border: 0;
   color: white;
   font-family: "Winky Sans", sans-serif;
+  height: 100%;
+}
+
+.body1 {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
 }
 
 a:active,
