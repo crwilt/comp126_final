@@ -1,18 +1,18 @@
 # comp126_final
 Final Baltimore Basketball Club Website for COMP 126
 
-Welcome page : Ch
-BBL Signup: C
-about us: Ch
-Meet the team: Bennett
-Basetball schedule: Grayson
-Basketball roster: Grayson
-Videos: C
-news: Bennett
+Welcome page : Ch <br>
+BBL Signup: C <br>
+about us: Ch <br>
+Meet the team: Bennett <br>
+Basetball schedule: Grayson <br>
+Basketball roster: Grayson <br>
+Videos: C <br>
+news: Bennett <br>
 
-Hex Codes:
-Primary: #131210
-Secondary: #43B6DD
-Accent: #EDDCA9
-Background: #0E3B44
-Text Color: White
+Hex Codes: <br>
+Primary: #131210 <br>
+Secondary: #43B6DD <br>
+Accent: #EDDCA9 <br>
+Background: #0E3B44 <br>
+Text Color: White <br>
