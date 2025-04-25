@@ -183,9 +183,15 @@ h2 {
   color: black;
 }
 
+.bdiv { /* for signup page */
+  width: 90%;
+}
+
+
 .formdiv {
   width: 90%;
   display: flex;
+  margin-bottom: 20px;
 }
 
 form {
