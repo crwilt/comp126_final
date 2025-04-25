@@ -83,18 +83,49 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  background-color: #292f56;
+  /* flex-wrap: wrap; */
+  background-color: #131210;
   color: white;
+  align-self: center;
 }
 
-.logo {
+.logoimg{
+  width: 45%;
+  height: 100px;
+}
+
+.instagram_logo{
+  width: 50px;
+  height: 30px;
+}
+
+footer {
+  background-color: #131210;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.insta_footer{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+}
+
+.rights{
+  margin-top: 2px;
+}
+
+
+/* .logo {
   text-decoration: none;
   font-weight: bold;
   line-height: 55px;
   padding: 0 20px;
   color: black;
-}
+} */
 
 .nav-collapse,
 .nav-collapse * {
@@ -150,7 +181,7 @@ main {
 h1 {
   width: 100%;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -159,7 +190,8 @@ h2 {
   margin: 0.75rem;
 }
 
-.welcomebtn {
+
+/* .welcomebtn {
   background-color: #292f56;
   color: white;
   border: 0;
@@ -168,20 +200,20 @@ h2 {
   border-radius: 8px;
   transition-property: background-color, color;
   transition-duration: 5s, 8s;
-}
-
+} */
+/* 
 .welcomebtn:hover,
 .welcomebtn:focus {
   background-color: #ACFA70;
   color: black;
-}
+} */
 
-.formdiv {
+/* .formdiv {
   width: 90%;
   display: flex;
-}
+} */
 
-form {
+/* form {
   width: 100%;
   gap: 1.5rem;
   display: flex;
@@ -190,12 +222,12 @@ form {
   padding: 1rem;
   font-weight: bold;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
+} */
+/* 
 input {
   border-radius: 8px;
   border-style: solid;
-}
+} */
 
 input:hover,
 input:focus {
@@ -243,59 +275,7 @@ input {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.imgdiv1 {
-  display: flex;
-  width: 90%;
-  padding-top: 15px;
-}
 
-.imgdiv2 {
-  display: flex;
-  width: 90%;
-}
-
-.imgdiv3 {
-  display: flex;
-  width: 90%;
-  padding-bottom: 15px;
-}
-
-
-img {
-  width: 100%;
-  height: auto;
-  flex-shrink: 1;
-}
-
-img:hover {
-  animation: img-grow 3s forwards;
-}
-
-img:not(:hover) { /*https://www.w3schools.com/CSSref/sel_not.php*/
-  animation: img-shrink 3s forwards;
-}
-
-@keyframes img-grow {
-  0% {transform: scale(1);}
-  100% {transform: scale(1.2);}
-}
-
-@keyframes img-shrink {
-  0% {transform: scale(1.2);}
-  100% {transform: scale(1);}
-}
-
-footer {
-  background-color: #131210;
-  color: white;
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-
-.fdiv {
-  width: 95%;
-}
 
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
