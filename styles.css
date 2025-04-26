@@ -97,7 +97,7 @@ header {
 }
 
 .logoimg{
-  width: 45%;
+  width: 50%;
   height: 100px;
 }
 
@@ -123,6 +123,20 @@ footer {
 
 .rights{
   margin-top: 2px;
+}
+
+.meet_team{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.meet_img{
+  width: 75%;
+  height: 400px;
+  padding-top: 25px;
 }
 
 
