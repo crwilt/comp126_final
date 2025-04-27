@@ -312,7 +312,7 @@ p{
   display: flex;
   flex-wrap: column;
   justify-content: space-around;
-  align-items: center; /* added to center things vertically */
+  align-items: center; 
   border-radius: 10px;
   margin: 20px auto;
   background-color: #0E3B44;
@@ -326,8 +326,8 @@ p{
 
 .about_us_info {
   font-size: 24px;
-  color: white; /* assuming you want text readable on dark background */
-  text-align: center; /* optional: makes text centered if you want */
+  color: white; 
+  text-align: center; 
 }
 #reversed_about_us{
   flex-direction: column;
@@ -556,42 +556,24 @@ video {
     display:flex;
     max-height: 70vh;
   }
-  #about_us_main {
-    display: flex;
-    flex-direction: column;
-    background-color: #131210;
-  }
   
   .quarter_story {
-    display: flex;
-    justify-content: space-around;
-    align-items: center; /* added to center things vertically */
-    border-radius: 10px;
-    margin: 20px auto;
-    background-color: #0E3B44;
-    max-width: 90vw;
+    flex-direction: row;
   }
-  
+  #reversed_about_us{
+    flex-direction: row;
+  }
   .about_us_green {
     width: 40%;
   }
   
   .about_us_info {
-    margin: 30px 0; /* cleaner margin */
-    font-size: 24px;
-    color: white; /* assuming you want text readable on dark background */
-    text-align: center; /* optional: makes text centered if you want */
+    margin: 30px 0;
   }
   
   .about_us_img {
     height: 300px;
     width: 40%;
-    border-radius: 5px;
-    object-fit: cover;
-    margin: 10px;
-  }
-  #just_started{
-    font-size: 32px
   }
   
 }
