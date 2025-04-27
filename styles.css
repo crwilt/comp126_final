@@ -4,16 +4,17 @@ body {
   padding: 0;
   border: 0;
   color: white;
-  font-family: "Winky Sans", sans-serif;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   height: 100%;
+  background-color:#131210;
 }
-
 .body1 {
   display: grid;
   grid-template-rows: auto 1fr auto;
   height: 100vh;
 }
-
 a:active,
 a:hover {
   outline: 0;
@@ -90,15 +91,21 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   background-color: #131210;
   color: white;
-  align-self: center;
 }
 
-.logoimg{
-  width: 50%;
-  height: 100px;
+.logoimg {
+  height: auto; 
+  max-height:162px;
+  width: 60%;
+  max-width: 400px;
+  display: block;
+  object-fit: contain;
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
 .instagram_logo{
@@ -198,7 +205,6 @@ main {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 90%;
 }
-
 h1 {
   width: 100%;
   text-align: center;
@@ -207,6 +213,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   color: white;
+  font-size: 64px;
 }
 
 h2 {
@@ -248,7 +255,7 @@ p{
   font-style: normal;
 }
 .gold_button{
-  padding:10px;
+  padding:5px 15px;
   color: black;
   background-color: #EDDCA9 ;
   border-radius: 10px;
@@ -257,12 +264,39 @@ p{
   font-style: normal;
   text-decoration: none;
 }
+#expect_excellence{
+  text-align: center;
+}
+#learn_more{
+  margin-top: ;
+  max-width: 107px;
+  align-self:center;
+}
+#unfinished_business{
+  display: flex;
+  margin: 0 30px;
+}
+#unfinished_business_header{
+  font-size: 40px;
+}
+#charles_shooting{
+  display:none;
+}
+#unfinished_business_text{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 30px;
+}
 .menu-item{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0px;
 }
-
+#learn_more{
+  font-size: 28px;
+}
 
 /* .welcomebtn {
   background-color: #292f56;
@@ -374,6 +408,7 @@ video {
   display: flex;
   width: auto;
   justify-content: end;
+  align-self: center;
   }
 
   .nav-collapse a {
@@ -386,7 +421,9 @@ video {
   .nav-collapse ul ul a {
     display: none;
   }
-
+  #charles_shooting{
+    display: inline;
+  }
   .nav-collapse.closed {
     max-height: none;
   }
@@ -466,4 +503,5 @@ video {
     aspect-ratio: 1 /1;
     object-fit: cover;
   }
+  
 }
