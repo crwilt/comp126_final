@@ -302,7 +302,7 @@ p{
 #index_main{
   background-image: url('imgs/green_stefon_diggs.png');
   background-size:contain;
-  min-height:40vh
+  min-height:50vh
 }
 #about_us_main {
   display: flex;
