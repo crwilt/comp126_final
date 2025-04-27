@@ -268,7 +268,7 @@ p{
   text-align: center;
 }
 #learn_more{
-  margin-top: ;
+  margin-top: 15px;
   max-width: 107px;
   align-self:center;
 }
@@ -278,6 +278,8 @@ p{
 }
 #unfinished_business_header{
   font-size: 40px;
+  margin-top: 10px;
+  margin-bottom:0px
 }
 #charles_shooting{
   display:none;
@@ -296,6 +298,10 @@ p{
 }
 #learn_more{
   font-size: 28px;
+}
+#index_main{
+  background-image: url('imgs/green_stefon_diggs.png');
+  background-size:contain;
 }
 
 /* .welcomebtn {
@@ -502,6 +508,30 @@ video {
     width: 75%;
     aspect-ratio: 1 /1;
     object-fit: cover;
+  }
+  #unfinished_business {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+  }
+  #unfinished_business_text {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  #charles_shooting {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+    opacity: 40%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  #index_main{
+    background-color:  #0E3B44;
+    background-image: none;
+    display:flex;
   }
   
 }
