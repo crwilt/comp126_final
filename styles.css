@@ -205,6 +205,7 @@ main {
   width: 90%;
 }
 h1 {
+  margin-top: 0px;
   width: 100%;
   text-align: center;
   margin-bottom: 15px;
@@ -559,6 +560,7 @@ video {
   
   .quarter_story {
     flex-direction: row;
+    max-width: 60vw;
   }
   #reversed_about_us{
     flex-direction: row;
@@ -575,5 +577,7 @@ video {
     height: 300px;
     width: 40%;
   }
-  
+  #last_about_us_green{
+    width: 90%;
+  }
 }
