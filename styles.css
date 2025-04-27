@@ -532,6 +532,7 @@ video {
     background-color:  #0E3B44;
     background-image: none;
     display:flex;
+    max-height: 70vh;
   }
   
 }
