@@ -456,6 +456,15 @@ video {
   aspect-ratio: 9/16;
 }
 
+.roster_info_grayson {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.schedule_roster {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
   flex-direction: row;

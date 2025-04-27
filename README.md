@@ -5,7 +5,7 @@ Welcome page : Ch <br>
 BBL Signup: C <br>
 about us: Ch <br>
 Meet the team: Bennett <br>
-Basetball schedule: Grayson <br>
+Basketball schedule: Grayson <br>
 Basketball roster: Grayson <br>
 Videos: C <br>
 news: Bennett <br>
