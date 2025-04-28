@@ -96,6 +96,7 @@ header {
   color: white;
 }
 
+
 .logoimg {
   height: auto; 
   max-height:162px;
@@ -465,6 +466,8 @@ video {
   display: block;
 }
 
+
+
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
   flex-direction: row;
@@ -482,6 +485,7 @@ video {
   width: auto;
   justify-content: end;
   align-self: center;
+  flex-wrap: wrap;
   }
 
   .nav-collapse a {
