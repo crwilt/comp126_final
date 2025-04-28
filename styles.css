@@ -313,7 +313,6 @@ p{
 
 .quarter_story {
   display: flex;
-  flex-wrap: column;
   justify-content: space-around;
   align-items: center; 
   border-radius: 10px;
