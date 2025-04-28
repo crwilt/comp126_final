@@ -469,14 +469,11 @@ video {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .schedule_roster {
   display: block;
 }
 
 
-=======
->>>>>>> fe616e6d3c20562d923ddabd4fe432a7056d9794
 @media screen and (min-width: 768px) {
   .nav-collapse ul {
   flex-direction: row;
