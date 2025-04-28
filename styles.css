@@ -457,14 +457,21 @@ video {
 }
 
 .roster_info_grayson {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   padding-top: 25px;
   padding-bottom: 25px;
+  border: 2px solid black;
+}
+
+.roster_info_grayson p {
+  text-align: center;
 }
 
 .schedule_roster {
   display: block;
 }
-
 
 
 @media screen and (min-width: 768px) {
